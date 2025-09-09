@@ -1,5 +1,17 @@
 
-const ironman = {
+interface Person {
+    firstName: string;
+    lastName: string;
+    age: number;
+    address: Address;
+}
+
+interface Address {
+    street: string;
+    city: string;
+}
+
+const ironman: Person = {
     firstName: 'Eduardo',
     lastName: 'Morales',
     age: 31,
@@ -9,7 +21,7 @@ const ironman = {
     }
 };
 
-let spiderman = ironman // Se apunta al mismo espacio en memoria y ambos modifican sus valores al cambiar.
+let spiderman: Person = ironman // Se apunta al mismo espacio en memoria y ambos modifican sus valores al cambiar.
 
 // se puede cambiar los valores del objeto pero no se puede reasignar el objeto si esta definido como const
 ironman.firstName = 'Tony';
