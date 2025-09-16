@@ -10,7 +10,8 @@ import './style.css'
 // import './bases/07-tarea-use-state';
 // import './bases/08-imp-exp';
 // import './bases/09-promises';
-import './bases/10-fetch-api';
+// import './bases/10-fetch-api';
+import './bases/11-async-await';
 //import { OwnerEnum } from './data/heroes.data';
 //import { getHeoresByOwner } from './bases/08-imp-exp';
 
