@@ -8,9 +8,10 @@ import './style.css'
 // import './bases/06-obj-destructuring';
 // import './bases/07-array-destructuring';
 // import './bases/07-tarea-use-state';
-import './bases/08-imp-exp';
-import { OwnerEnum } from './data/heroes.data';
-import { getHeoresByOwner } from './bases/08-imp-exp';
+// import './bases/08-imp-exp';
+import './bases/09-promises';
+//import { OwnerEnum } from './data/heroes.data';
+//import { getHeoresByOwner } from './bases/08-imp-exp';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -18,5 +19,5 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   </div>
 `;
 
-console.log(getHeoresByOwner(OwnerEnum.Marvel));
-console.log(getHeoresByOwner(OwnerEnum.DC));
+//console.log(getHeoresByOwner(OwnerEnum.Marvel));
+//console.log(getHeoresByOwner(OwnerEnum.DC));
