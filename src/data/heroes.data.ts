@@ -2,18 +2,18 @@
 type Owner = 'DC' | 'Marvel';
 
 // Esto crea un tipo enumerado, que se refleja como un objeto en tiempo de ejecución
-enum OwnerEnum {
+export enum OwnerEnum {
     DC = 'DC',
     Marvel = 'Marvel'
 }
 
-interface HeroOwnerEnum {
+export interface HeroOwnerEnum {
     id: number;
     name: string;
     owner: OwnerEnum;
 }
 
-const heroesOwnerEnum: HeroOwnerEnum[] = [
+export const heroesOwnerEnum: HeroOwnerEnum[] = [
   {
     id: 1,
     name: 'Batman',
@@ -84,3 +84,5 @@ const heroesOwnerType: HeroOwnerType[] = [
     owner: 'DC',
   }
 ];
+
+// export default heroesOwnerType;
